@@ -1,2 +1,8 @@
-@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
 
+@import "reset.css";
+@import "status-bar.css";
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
