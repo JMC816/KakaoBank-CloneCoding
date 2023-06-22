@@ -1,0 +1,20 @@
+.main-screen {
+    padding: 0px 20px;
+    margin-top: 95px;
+}
+
+.main-screen-first__ad {
+    height: 90px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.main-screen-ad__text {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+}
