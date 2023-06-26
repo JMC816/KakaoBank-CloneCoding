@@ -18,3 +18,74 @@
     align-items: center;
     line-height: 40px;
 }
+
+.main-screen__bank {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    background-color: #ffe401;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.main-screen__bank_money {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-screen__bank_money_bankbook {
+    display: flex;
+}
+
+.main-screen__bank_money_bankbook i {
+    margin-right: 10px;
+}
+
+.main-screen__bank_money_bankbook_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-screen__bank_money_bankbook_text :nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.main-screen__bank_money_bankbook_text :nth-child(2) {
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.main-screen__bank_money_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.main-screen__bank_money_card_icon {
+    margin-bottom: 50px;
+}
+
+.main-screen__bank_money_card_text span {
+    background-color: #f4da00;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main-screen__bank_money_card_text :nth-child(2) {
+    margin-left: 10px;
+}
+
+.main-screen__bank_safebox {
+    padding-top: 50px;
+    border-top: #f4da00 solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-screen__bank_safebox span:nth-child(2) {
+    font-weight: 600;
+}
