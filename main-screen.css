@@ -89,3 +89,17 @@
 .main-screen__bank_safebox span:nth-child(2) {
     font-weight: 600;
 }
+
+.main-screen__more {
+    height: 90px;
+    background-color: #323440;
+    margin-top: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-screen__more i {
+    color: #898a86;
+}
