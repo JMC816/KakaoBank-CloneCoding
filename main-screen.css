@@ -103,3 +103,11 @@
 .main-screen__more i {
     color: #898a86;
 }
+
+.main-screen_text {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #898a86;
+}
