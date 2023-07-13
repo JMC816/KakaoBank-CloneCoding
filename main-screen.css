@@ -111,3 +111,30 @@
     align-items: center;
     color: #898a86;
 }
+
+.main-screen-second__ad {
+    height: 90px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+}
+
+.second__ad-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.second__ad-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.second__ad-text span {
+    line-height: 30px;
+}
+
+.second__ad-text span:nth-child(1) {
+    font-weight: 600;
+}
