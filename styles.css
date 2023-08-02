@@ -3,6 +3,7 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "main-screen.css";
+@import "bottom-bar.css";
 
 body {
     font-family: 'Merriweather Sans', sans-serif;
